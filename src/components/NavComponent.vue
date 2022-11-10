@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="">
     <div id="nav">
       <nav class="d-flex justify-content-evenly">
         <div class="logo">
