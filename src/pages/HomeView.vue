@@ -1,19 +1,16 @@
 <style lang="SCSS" scoped></style>
 
-<script>
+<script setup>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld,
-  },
-}
+import JobAplllicationProcedure from '@/components/HomePage/JobAplllicationProcedure.vue'
+import WelcomePageComponent from '@/components/HomePage/WelcomePageComponent.vue'
+import Cat from '@/components/HomePage/categoriesComponent.vue'
 </script>
 
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <WelcomePageComponent />
+    <JobAplllicationProcedure />
+    <!-- <Cat /> -->
   </div>
 </template>
