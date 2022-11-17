@@ -15,7 +15,7 @@
         </ol> -->
         <div class="col-lg-6">
           <div class="row padding-top">
-            <div class="col-12 float-left">
+            <div class="col-12 float-left sizedBox">
               <div class="title"><span class="number">1</span> Register an account</div>
               <small class="padding-left"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et
@@ -24,7 +24,7 @@
               >
             </div>
 
-            <div class="col-12 float-left">
+            <div class="col-12 float-left sizedBox">
               <div class="title"><span class="number">2</span> Find your job</div>
               <small class="padding-left"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et
@@ -33,7 +33,7 @@
               >
             </div>
 
-            <div class="col-12 float-left">
+            <div class="col-12 float-left sizedBox">
               <div class="title"><span class="number">3</span> Apply for job</div>
               <small class="padding-left"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et
@@ -42,6 +42,14 @@
               >
             </div>
           </div>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="@/assets/woman-leaning.svg"
+            alt="welcome-image"
+            class="w-image"
+            style="height: 420px"
+          />
         </div>
       </div>
     </div>
@@ -57,6 +65,9 @@ small {
   float: left;
   padding-left: 2px;
 }
+.w-image {
+  height: 100;
+}
 .welcome-text {
   font-weight: 700;
   font-size: 44px;
@@ -69,6 +80,9 @@ small {
 .float-left {
   float: left;
   text-align: start;
+}
+.sizedBox {
+  margin-top: 42px;
 }
 .title {
   font-weight: 600;

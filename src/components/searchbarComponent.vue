@@ -1,8 +1,8 @@
 <style lang="scss" scoped>
 .search {
-  margin-top: 145px;
+  // margin-top: 145px;
   display: flex;
-  margin-bottom: 145px;
+  // margin-bottom: 145px;
 
   .searchbar {
     align-self: center;

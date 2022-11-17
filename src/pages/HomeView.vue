@@ -11,6 +11,6 @@ import Cat from '@/components/HomePage/categoriesComponent.vue'
   <div class="home">
     <WelcomePageComponent />
     <JobAplllicationProcedure />
-    <!-- <Cat /> -->
+    <Cat />
   </div>
 </template>

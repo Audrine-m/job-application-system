@@ -1,7 +1,9 @@
 <template>
-  <NavComponentVue />
-
-  <router-view />
+  <div>
+    <NavComponentVue />
+    <router-view />
+    <foot></foot>
+  </div>
 </template>
 
 <style lang="scss">
@@ -15,7 +17,6 @@
 </style>
 
 <script setup>
+import foot from '@/components/footer.vue'
 import NavComponentVue from './components/NavComponent.vue'
-
-let name = 'levin Mutai'
 </script>

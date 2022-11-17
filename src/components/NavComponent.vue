@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div id="nav">
+    <div id="nav sticky-top">
       <nav class="d-flex justify-content-evenly">
         <div class="logo">
           <img src="../assets/jobs-remove.png" alt="logo" />
