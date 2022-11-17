@@ -24,6 +24,9 @@ import searchComponent from '@/components/searchbarComponent.vue'
     text-align: start;
     word-spacing: 6px;
   }
+  .search1 {
+    padding-top: 145px;
+  }
 }
 </style>
 
@@ -35,7 +38,9 @@ import searchComponent from '@/components/searchbarComponent.vue'
           <h1 class="welcome-text">We Help You Find Your Dream Job</h1>
           <small>Our Wolrd class services will help you land your dream job</small>
         </div>
-        <searchComponent />
+        <div class="search1" style="margin-top: 145px">
+          <searchComponent />
+        </div>
       </div>
       <div class="col-lg-6">
         <img src="@/assets/welcome.svg" alt="welcome-image" />
